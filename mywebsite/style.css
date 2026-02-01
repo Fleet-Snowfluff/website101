@@ -1,0 +1,33 @@
+/* Whole page */
+body {
+  background-color: #b30000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+/* White box */
+.card {
+  background-color: white;
+  color: black;
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #b30000;
+}
+
+/* Text */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
